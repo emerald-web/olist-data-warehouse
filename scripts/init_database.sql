@@ -13,6 +13,11 @@
     - Creates the Olist_DataWarehouse database
     - Creates core schemas: bronze, silver, gold
 
+⚠️ WARNING:
+    Running this script will DROP the existing database named 'Olist_DataWarehouse'
+    if it already exists — all existing data, tables, and objects will be permanently deleted.
+    Use this script only in a development or testing environment.
+
 📂 Author: Okenwa Emmanuel Ikechukwu
 📅 Date: 2025-11-04
 =========================================================================================
